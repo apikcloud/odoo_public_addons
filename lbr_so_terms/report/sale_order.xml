@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template id="sale_order_report_document" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//div[hasclass('page')]" position="after">
+            <div t-if="doc.company_id.show_so_terms_and_conditions" class="page" style="page-break-before: always;">
+                <div class="oe_structure"/>
+                <h3>
+                    <t t-if="not (env.context.get('proforma', False) or is_pro_forma)">
+                        <span t-if="doc.state not in ['draft','sent']">Order # </span>
+                        <span t-if="doc.state in ['draft','sent']">Quotation # </span>
+                    </t>
+                    <t t-if="env.context.get('proforma', False) or is_pro_forma">
+                        <span>Pro-Forma Invoice # </span>
+                    </t>
+                    <span t-field="doc.name"/>:<span> terms and conditions</span>
+                </h3>
+                <div class="terms_and_conditions_report_content mt32 mr64"
+                     t-raw="doc.company_id.so_terms_and_conditions"/>
+                <div class="oe_structure"/>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

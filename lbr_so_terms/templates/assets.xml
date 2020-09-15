@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="web_report_assets_common" inherit_id="web.report_assets_common">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" href="/lbr_so_terms/static/src/css/reports.scss"/>
+        </xpath>
+    </template>
+
+</odoo>
