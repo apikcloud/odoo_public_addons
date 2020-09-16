@@ -6,8 +6,8 @@ This repository contains Odoo addons
 
 Module | Technical name | Description | Maturity
 ------ | -------------- | ----------- | --------
-
-
+[SO terms & conditions](https://github.com/libreinnova/odoo_public_addons/tree/12.0/lbr_so_terms) | lbr_so_terms | This module adds the terms and conditions of the company to the last page of the sales order report. | ![Beta](https://img.shields.io/badge/Beta-green.png)
+[Task priority](https://github.com/libreinnova/odoo_public_addons/tree/12.0/lbr_task_priority) | lbr_task_priority | This module adds priority stage field and widget for project tasks. | ![Beta](https://img.shields.io/badge/Beta-green.png)
 
 -------------
 
