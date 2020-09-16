@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="project_view_task_form" model="ir.ui.view">
+        <field name="name">Inherit project.task form view</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='tag_ids']" position="before">
+                <field name="priority_kanban" widget="priority"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="project_view_task_kanban" model="ir.ui.view">
+        <field name="name">Inherit project.task kanban view</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='rating_ids']" position="after">
+                <field name="priority_kanban"/>
+            </xpath>
+            <xpath expr="//strong[hasclass('o_kanban_record_title')]" position="after">
+                <div class="kanban_small_priority">
+                    <field name="priority_kanban" widget="priority"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="project_view_task_tree" model="ir.ui.view">
+        <field name="name">Inherit project.task tree view</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_tree2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="before">
+                <field name="priority_kanban" widget="priority"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="project_view_task_search" model="ir.ui.view">
+        <field name="name">Inherit project.task search form</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_search_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[last()]" position="after">
+                <field name="priority_kanban"/>
+            </xpath>
+            <xpath expr="//filter[@name='starred']" position="after">
+                <separator/>
+                <filter string="High priority" name="high_priority_kanban" domain="[('priority_kanban','=', 2)]"/>
+                <filter string="Normal priority" name="normal_priority_kanban" domain="[('priority_kanban','=', 1)]"/>
+                <filter string="Low priority" name="low_priority_kanban" domain="['|', ('priority_kanban','=', 0), ('priority_kanban', '=', False)]"/>
+            </xpath>
+            <xpath expr="//group[1]" position="inside">
+                <filter string="Priority" name="priority_kanban" context="{'group_by':'priority_kanban'}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

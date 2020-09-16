@@ -1,0 +1,17 @@
+.oe_kanban_content {
+    .o_kanban_record_headings {
+        position: relative;
+        .o_kanban_record_title {
+            display: block;
+            margin-right: 32px;
+        }
+        .kanban_small_priority {
+            position: absolute;
+            right: 0;
+            top: 0;
+            .o_priority {
+                font-size: 80%;
+            }
+        }
+    }
+}
