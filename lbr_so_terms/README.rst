@@ -18,7 +18,7 @@ SO terms & conditions
 Add terms and conditions to the SO PDF report
 ---------------------------------------------
 
-This module adds company's terms and conditions on sale order report.
+This module adds the terms and conditions of the company to the last page of the sales order report.
 
 You need to go to *Settings > Users and companies > Companies*, open **Terms and conditions** tab, mark **Show terms on SO report** checkbox and cover terms content on this tab.
 
@@ -38,7 +38,7 @@ Contributors
 Other credits
 ~~~~~~~~~~~~~
 
-* Icon: built with different icons from `Icons8 <https://icons8.com>`_
+* Icon: built with different icons from `Icons8 <https://icons8.com>`_ and `Flaticon <https://www.flaticon.com/home>`_
 
 Maintainer
 ~~~~~~~~~~
@@ -64,3 +64,5 @@ that the current application will be uninterrupted, timely, secure, or error-fre
 Copyright(c): 2020 Libreinnova (https://libreinnova.com/)
 
 All Rights Reserved
+
+See LICENSE file for full copyright and licensing details.

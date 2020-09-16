@@ -13,9 +13,10 @@
     'description': '',
     'category': 'Sales',
     'author': 'Libreinnova',
-    'website': 'https://libreinnova.com/',
+    'website': 'https://github.com/libreinnova/odoo_public_addons',
     'license': 'AGPL-3',
     'images': [
+        'static/description/banner.png',
         'static/description/icon.png'
     ],
     'depends': [
