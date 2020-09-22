@@ -1,5 +1,5 @@
-.. |maturity| image:: https://img.shields.io/badge/maturity-Beta-green.png
-    :alt: Beta
+.. |maturity| image:: https://img.shields.io/badge/maturity-Stable-brightgreen.png
+    :alt: Stable
 
 .. |badge1| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
@@ -21,6 +21,9 @@ Priority states for project tasks
 This module adds priority stage field and widget for project tasks.
 
 Also it adds filter and order options (by priority) in the task list & kanban views.
+
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/12.0/lbr_task_priority/static/description/screen_1.png
+   :alt: Project task priority
 
 Author
 ------
