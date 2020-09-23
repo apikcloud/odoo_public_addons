@@ -1,5 +1,5 @@
-.. |maturity| image:: https://img.shields.io/badge/maturity-Beta-green.png
-    :alt: Beta
+.. |maturity| image:: https://img.shields.io/badge/maturity-Stable-brightgreen.png
+    :alt: Stable
 
 .. |badge1| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
@@ -23,6 +23,12 @@ This module adds the terms and conditions of the company to the last page of the
 You need to go to *Settings > Users and companies > Companies*, open **Terms and conditions** tab, mark **Show terms on SO report** checkbox and cover terms content on this tab.
 
 Only users with the role of sales manager can modify it.
+
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/12.0/lbr_so_terms/static/description/screen_1.png
+   :alt: SO terms & conditions
+
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/12.0/lbr_so_terms/static/description/screen_2.png
+   :alt: SO terms & conditions
 
 Author
 ------
