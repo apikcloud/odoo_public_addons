@@ -7,7 +7,7 @@ class ProjectTask(models.Model):
     _inherit = 'project.task'
 
     priority_kanban = fields.Selection([
-        (0, 'Low'),
-        (1, 'Normal'),
-        (2, 'High')
-    ], string='Priority', default='0')
+        ('0', 'Low'),
+        ('1', 'Normal'),
+        ('2', 'High')
+    ], string='Kanban priority', default='0')

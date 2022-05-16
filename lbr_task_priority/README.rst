@@ -15,14 +15,14 @@ Task priority
 
 |maturity| |badge1| |badge2|
 
-Priority states for project tasks
----------------------------------
+Priority state for project tasks
+--------------------------------
 
-This module adds priority stage field and widget for project tasks.
+This module adds kanban priority field and star-type widget to project tasks.
 
-Also it adds filter and order options (by priority) in the task list & kanban views.
+Also it adds priority filter and 'order by' option in the task search view.
 
-.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/12.0/lbr_task_priority/static/description/screen_1.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/lbr_task_priority/static/description/screen_1.png
    :alt: Project task priority
 
 Author
@@ -34,7 +34,7 @@ Contributors
 ~~~~~~~~~~~~
 
 * Libreinnova
-* Pavel Smirnov, pavel@libreinnova.com
+* Pavel S., pavel@libreinnova.com
 
 Other credits
 ~~~~~~~~~~~~~
@@ -62,7 +62,7 @@ that the current application will be uninterrupted, timely, secure, or error-fre
 
 -------------
 
-Copyright(c): 2020 Libreinnova (https://libreinnova.com/)
+Copyright(c): 2022 Libreinnova (https://libreinnova.com/)
 
 All Rights Reserved
 
