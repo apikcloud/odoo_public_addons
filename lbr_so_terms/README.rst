@@ -41,17 +41,12 @@ Contributors
 * Libreinnova
 * Pavel S., pavel@libreinnova.com
 
-Other credits
-~~~~~~~~~~~~~
-
-* Icon: built with different icons from `Icons8 <https://icons8.com>`_ and `Flaticon <https://www.flaticon.com/home>`_
-
 Maintainer
 ~~~~~~~~~~
 
 This module is maintained by Libreinnova, https://libreinnova.com
 
-.. image:: https://libreinnova.com/images/logo.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/small-logo-h.png
    :alt: Libreinnova
    :target: https://libreinnova.com
 
