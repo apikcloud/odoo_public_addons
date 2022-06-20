@@ -8,7 +8,7 @@
 ###############################################################################
 {
     'name': 'SO terms & conditions',
-    'version': '13.0.1.0',
+    'version': '14.0.1.0',
     'summary': 'Add terms and conditions to the SO PDF report',
     'description': '',
     'category': 'Sales',

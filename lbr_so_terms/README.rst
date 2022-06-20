@@ -24,10 +24,10 @@ You need to go to *Settings > Users and companies > Companies*, open **Terms and
 
 Only users with the role of sales manager can modify it.
 
-.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/lbr_so_terms/static/description/screen_1.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/14.0/lbr_so_terms/static/description/screen_1.png
    :alt: SO terms & conditions
 
-.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/lbr_so_terms/static/description/screen_2.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/14.0/lbr_so_terms/static/description/screen_2.png
    :alt: SO terms & conditions
 
 Author
@@ -46,7 +46,7 @@ Maintainer
 
 This module is maintained by Libreinnova, https://libreinnova.com
 
-.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/small-logo-h.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/14.0/small-logo-h.png
    :alt: Libreinnova
    :target: https://libreinnova.com
 

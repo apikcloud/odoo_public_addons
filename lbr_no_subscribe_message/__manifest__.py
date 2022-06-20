@@ -8,7 +8,7 @@
 ###############################################################################
 {
     'name': 'No subscribe message',
-    'version': '13.0.1.0',
+    'version': '14.0.1.0',
     'summary': 'Disable default assignment notifications',
     'description': '',
     'category': 'Tools',

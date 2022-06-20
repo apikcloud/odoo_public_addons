@@ -22,7 +22,7 @@ This module adds kanban priority field and star-type widget to project tasks.
 
 Also it adds priority filter and 'order by' option in the task search view.
 
-.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/lbr_task_priority/static/description/screen_1.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/14.0/lbr_task_priority/static/description/screen_1.png
    :alt: Project task priority
 
 Author
@@ -41,7 +41,7 @@ Maintainer
 
 This module is maintained by Libreinnova, https://libreinnova.com
 
-.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/small-logo-h.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/14.0/small-logo-h.png
    :alt: Libreinnova
    :target: https://libreinnova.com
 

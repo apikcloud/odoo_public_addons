@@ -22,7 +22,7 @@ This module disables the sending of assignment and subscribe follower messages f
 
 For example, the sales order assignment message shown in the following image.
 
-.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/lbr_no_subscribe_message/static/description/screen_1.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/14.0/lbr_no_subscribe_message/static/description/screen_1.png
    :alt: User assignment message for a sale order
 
 No configuration required.
@@ -48,7 +48,7 @@ Maintainer
 
 This module is maintained by Libreinnova, https://libreinnova.com
 
-.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/13.0/small-logo-h.png
+.. image:: https://raw.githubusercontent.com/libreinnova/odoo_public_addons/14.0/small-logo-h.png
    :alt: Libreinnova
    :target: https://libreinnova.com
 

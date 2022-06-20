@@ -8,7 +8,7 @@
 ###############################################################################
 {
     'name': 'Task priority',
-    'version': '13.0.1.0',
+    'version': '14.0.1.0',
     'summary': 'Priority state for project tasks',
     'description': '',
     'category': 'Project Management',
