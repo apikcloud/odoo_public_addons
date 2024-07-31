@@ -17,7 +17,7 @@
         <field name="model">project.task</field>
         <field name="inherit_id" ref="project.view_task_kanban"/>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='rating_ids']" position="after">
+            <xpath expr="//field[@name='activity_state']" position="after">
                 <field name="priority_kanban"/>
             </xpath>
             <xpath expr="//strong[hasclass('o_kanban_record_title')]" position="after">
